@@ -7,6 +7,8 @@ while n>0:
 if count%2==0:
     first=n//100
     second=n%100
+    print(first)
+    print(second)
     if first+second==n:
         print("tech number")
     else:
